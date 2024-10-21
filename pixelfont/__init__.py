@@ -1,14 +1,6 @@
 import pygame, sys
 
 
-mainClock = pygame.time.Clock()
-
-
-
-pygame.init()
-
-screen = pygame.display.set_mode((500, 500), 0, 32)
-
 
 def clip(surf, x, y, x_size, y_size):
     handle_surf = surf.copy()
@@ -94,24 +86,3 @@ class Font():
                 x_offset += text_surf.get_width() * scalefactor + self.spacing
 
 
-font = Font("font.png")
-text = ""
-font_size = 10
-while True:
-    screen.fill((255, 255, 255))
-
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-        if event.type == pygame.KEYDOWN:
-            text += event.unicode
-            if event.key == pygame.K_BACKSPACE:
-                text -= text[-1]
-            if event.key == pygame.K_PLUS:
-                font_size += 1
-            if event.key == pygame.K_MINUS:
-                font_size-=1
-
-    font.render(screen, text, (0, 0, 255), (100, 100), font_size, (255, 0, 255), False)
-    pygame.display.update()
