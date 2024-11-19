@@ -1,6 +1,4 @@
-import pygame, sys
-
-
+import pygame
 
 def clip(surf, x, y, x_size, y_size):
     handle_surf = surf.copy()
@@ -71,7 +69,7 @@ class Font():
                 text_surf = self.characters[char]
 
                 scaledchar = pygame.transform.scale(text_surf, (
-                text_surf.get_width() * scalefactor, text_surf.get_height() * scalefactor)).copy()
+                    text_surf.get_width() * scalefactor, text_surf.get_height() * scalefactor)).copy()
 
                 newchar = colour_swap(scaledchar, (255, 0, 0), color)
                 newchar.set_colorkey((0, 0, 0))
@@ -84,5 +82,3 @@ class Font():
                 y_offset += 8 * scalefactor
             else:
                 x_offset += text_surf.get_width() * scalefactor + self.spacing
-
-
