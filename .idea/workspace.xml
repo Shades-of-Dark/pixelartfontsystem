@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3251c12-cd24-4fd8-a11f-104b7a957ada" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixelfont/MANIFEST.IN" beforeDir="false" afterPath="$PROJECT_DIR$/pixelfont/font.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixelfont/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixelfont/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pixelfont/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixelfont/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="c3251c12-cd24-4fd8-a11f-104b7a957ada" name="Changes" comment="fixed system" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1729056292590</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed system">
+      <created>1752169473016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752169473016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed system" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed system" />
   </component>
 </project>

@@ -12,7 +12,7 @@ authors = [
 description = "A pixel art font system to quickly load custom fonts"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [ "pygame>=2.6.1",
+dependencies = [ "pygame-ce>=2.6.1",
 ]
 
 [project.urls]
