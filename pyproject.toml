@@ -3,19 +3,17 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[metadata]
-name = "pixelartfont"
-version = "0.0.1"
-
-[tool.setuptools.packages]
-find = {}  # Scan the project directory with the default parameters
-
 [project]
 name = "pixelartfont"
 version = "0.0.1"
 authors = [
   { name="Vedh Rao", email="raovedh@gmail.com" },
 ]
-description = "Handy pixel art font package"
+description = "A pixel art font system to quickly load custom fonts"
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [ "pygame>=2.6.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Shades-of-Dark/pixelartfontsystem"
